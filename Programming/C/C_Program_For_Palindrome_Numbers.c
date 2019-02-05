@@ -1,24 +1,26 @@
 #include<stdio.h>
 int main(){
-   int num, rem, reverse_num, temp, start, end;
+   int number, remainder, reverse_number, temparary, lowerlimit, upperlimit;
 
    printf("Enter the lower limit: ");
-   scanf("%d",&start);
+   scanf("%d",&lowerlimit);         //to scan the lowerlimit
 
    printf("Enter the upper limit: ");
-   scanf("%d",&end);
+   scanf("%d",&upperlimit);         //to scan the upper limit.
 
-   printf("Palindrome numbers between %d and %d are: ",start,end);
-   for(num=start;num<=end;num++){
-      temp=num;
-      reverse_num=0;
-      while(temp){
-         rem=temp%10;
-         temp=temp/10;
-         reverse_num=reverse_num*10+rem;
+   printf("Palindrome numbers between %d and %d are: ",upperlimit,lowerlimit);
+   for(number=lowerlimit; number<=upperlimit ;num++)    //loop to rotate upto given number
+   {
+      temparary=number;
+      reverse_number=0;
+      while(temp)
+     {
+         remainder=temparary%10;
+         temparary=temparary/10;
+         reverse_num=reverse_number*10+remainder;            // Condition for reverse the number
       }
-      if(num==reverse_num)
-         printf("%d ",num);
+      if(number==reverse_number)
+         printf("%d ",number);
    }
    return 0;
 }

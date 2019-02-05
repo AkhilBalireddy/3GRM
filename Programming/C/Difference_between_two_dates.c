@@ -1,33 +1,34 @@
 int main()
 {
-int d1, d2, d, m1, m2, m, y1, y2, y;
-printf("Enter first date (dd/mm/yyyy): ");
-scanf("%d %d %d", &d1, &m1, &y1);
-printf("Enter Second Date (dd/mm/yyyy): ");
-scanf("%d %d %d", &d2, &m2, &y2);
-if(d2<d1)
+int day1, day2, day, month1, month2, month, year1, year2, year;
+    printf("enter two dates to check the differance betwen them\n");
+    printf("Enter first date in the form of (dd/mm/yyyy):- ");
+scanf("%d %d %d", &day1, &month1, &year1);
+printf("Enter Second Date in the form of (dd/mm/yyyy):- ");
+scanf("%d %d %d", &day2, &month2, &year2);
+if(day2<day1)
 {
-    if(m2==m3)
+    if(month2==month3)
     {
-        if(y2%100!==0 && y2%4==0 || y2%4==0) /*Check for Leap year*/
-            d2=d2+29;
+        if(year2%100!==0 && year2%4==0 || year2%4==0) /*Check for Leap year*/
+            day2=day2+29;
         else
-            d2=d2+28;
+            day2=day2+28;
     }
-    else if(m2==5 || m2==7 || m2==10 || m2==12)
-        d2=d2+30;
-    m2=m2-1;
+    else if(month2==5 || month2==7 || month2==10 || month2==12)
+        day2=day2+30;
+    month2=month2-1;
 }
-if(m2<m1)
+if(month2<month1)
 {
-    y2=y2-1;
-    m2=m2+12;
+    year2=year2-1;
+    month2=month2+12;
 }
-y=y2-y1;
-m=m2-m1;
-d=d2-d1;
+year=year2-year1;
+month=month2-month1;
+day=day2-day1;
 printf("Differance of the two Dates are: ");
-printf("%d years %d months %d days\n", y, m, d);
+printf("%d years %d months %d days\n", year, month, day);
 return 0;
 }
 

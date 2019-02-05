@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
-    int a,b,c;
-    printf("enter value for a");
-    scanf("%d",&a);
-    printf("enter value for b");
-    scanf("%d",&b);
-    c=a*b;
-    printf("c=%.2d",c);
+    int number1,number2,product;
+    printf("enter value for number1");
+    scanf("%d",&number1);
+    printf("enter value for number2");
+    scanf("%d",&number2);
+    product=number1*number2;
+    printf("product=%d",product);
     return 0;
 }
