@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-int num,pos;
-printf("enter the number");
-scanf("%d",&num);
-for(pos=31;pos>=0;pos--)
-printf("%d",num>>pos&1);
+int number,position;
+printf("enter the number"); //To Take the Number
+scanf("%d",&number);        //To scan the Number
+for(position=31;position>=0;position--)     //Loop rotation for binary format
+printf("%d",number>>position&1);        //To print in binary format
 }
 

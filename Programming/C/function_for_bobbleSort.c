@@ -2,17 +2,17 @@
 void bobble_sort(int *,int);
 int main()
 {
-int a[5]={23,1,56,3,55};
+int sort[5]={23,1,56,3,55};
 int ele,i;
-ele=sizeof(a)/sizeof(a[0]);
+ele=sizeof(sort)/sizeof(sort[0]); //to get size of the array
 for(i=0;i<ele;i++)
 printf("before sort %d\n",a[i]);
-bobble_sort(a,ele);
+bubble_sort(a,ele);
 for(i=0;i<ele;i++)
 printf("after sort %d\n",a[i]);
 printf("\n");
 }
-void bobble_sort(int *p,int ele)
+void bubble_sort(int *p,int elements)
 {
 int i,j,t;
 for(i=0;i<ele;i++)

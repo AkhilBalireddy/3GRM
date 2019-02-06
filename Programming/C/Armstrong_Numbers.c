@@ -1,21 +1,21 @@
 #include<stdio.h>
 int main()
 {
-int num,i,r,sum,temp;
-printf("enter the number\n");
-scanf("%d",&num);
-temp=num;
-while(num>0)
+int number, multiplication, remainder, sum,temparary;
+    printf("enter the number to find Armstrong Numbers:- \n");  //To Take Number
+scanf("%d",&number);        //To scan the Number
+temparary=number;
+while(number>0)
 {
-r=num%10;
-i=r*r*r;
-sum=sum+i;
-num=num/10;
+    r=number%10;        //To separate variables
+    multiplication=r*r*r;
+    sum=sum+multiplication;
+    number=number/10;
 }
-num=temp;
-if(sum==num)
-printf("Given Number is Armstrong Number\n");
+    number=temparary;
+if(sum==number)     //Condition for Armstrong Number
+    printf("Given Number is Armstrong Number\n");   //To print on screen
 else
-printf("Not Armstrong Number");
+    printf("Not Armstrong Number");
 }
 
