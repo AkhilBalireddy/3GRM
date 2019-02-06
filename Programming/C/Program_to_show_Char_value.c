@@ -1,16 +1,16 @@
 #include<stdio.h>
 int main()
 {
-char ch;
-printf("enter char\n");
-scanf("%c",&ch);
+	char character;
+	printf("enter character\n");		//To take a character from user
+	scanf("%c",&character);		//To scan the character
 
-printf("Hello\n");
-if(ch>=97 && ch<=122)
+	printf("Hello\n");		//To print Hello on Screen
+	if(character>=97 && charecter<=122)
 
-//if(ch>='a' && ch<='z')
-printf("ch=%c and its ASCII=%d\n",ch,ch);
-printf("Hai\n");
+		//if(character>='a' && character<='z')
+		printf("character=%c and its ASCII=%d\n",character,character);	//To print Character and ASCII value
+	printf("Hai\n");	//To print Hai on  screen
 }
 
 

@@ -1,14 +1,14 @@
 #include<stdio.h>
-void print_string(const char *);
+void print_string(const char *);	//function Declaration
 int main()
 {
-char s[]="AkhilReddy";
-print_string(s);
-printf("\n");
+	char s[]="AkhilReddy";		//Given string
+	print_string(s);		//function call
+	printf("\n");			//To print in separate line
 }
-void print_string(const char *p)
+void print_string(const char *p)	//Function Definition
 {
-while(*p)
-printf("%c",*p++);
+	while(*p)			//Loop to get character by character
+		printf("%c",*p++);	//To print given string in character by character on screen 
 }
 

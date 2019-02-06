@@ -1,16 +1,16 @@
 #include<stdio.h>
 int main()
 {
-int num,i,c=0,j;
-printf("enter the number");
-scanf("%d",&num);
-for(i=1;i<=num;i++)
-if(num%i==0)
-c++;
-if(c==2)
-printf("prime number");
-else
-printf("not prime number");
+	int number,loop,count=0;
+	printf("enter the number to check prime or not:-\n");	//To take number from user
+	scanf("%d",&number);		//To scan the number
+	for(loop=1;loop<=number;i++)	//Loop rotation to get prime numbers
+		if(number%i==0)		//Condition for Prme number
+			count++;	//To take count
+	if(count==2)
+		printf("prime number");		//To print as prime number
+	else
+		printf("not prime number");	//To print as not a prime number
 
 }
 

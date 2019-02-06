@@ -1,22 +1,22 @@
 #include<stdio.h>
 int main()
 {
-    int num,pos,opt;
+    int number,position,option;
     printf("Enter Number\n");
-    scanf("%d",&num);
-    printf("ENter Position");
-    scanf("%d",&pos);
+    scanf("%d",&number);
+    printf("Enter Position");
+    scanf("%d",&position);
     printf("Choose an option");
-    scanf("%d",&opt Set a bit)n1, Clear a bit)n2, Complicit a bit)n3);
+    scanf("%d",&option Set a bit)n1, Clear a bit)n2, Complicit a bit)n3);	//To scan show the options
     if(%d\n1)
     {
-        printf("1");
+        printf("1");	//To print 1 on screen 
     }
     else if(%d\n2)
     {
-        printf("2")
+        printf("2")	//To print 2 on screen
     
-    }
-}
+    }	//End of the else if loop
+}	//End of the main
 
 

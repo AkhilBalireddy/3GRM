@@ -1,21 +1,21 @@
 #include<stdio.h>
 int main()
 {
-	int num,sum=0,i,j,c=0;
-	for(i=2;i<100;sum=0,i++)
+	int number, sum=0, loop1, loop2, count=0;
+	for(loop1=2;loop1<100;sum=0,loop1++)	//outer loop to give numbers
 	{
-		for(j=1;j<i;j++)
+		for(loop2=1;loop2<loop1;loop2++)	//Inner loop to check the number
 		{
-			if(i%j==0)
-				sum=sum+j;
+			if(loop1%loop2==0)		//Condition to get sum of digits
+				sum=sum+loop2;
 		}
-		if(sum==i)
+		if(sum==loop1)				//Condition for perfect number
 		{
-			printf("%d \n",i);
-			c++;
+			printf("%d \n",loop1); 	//To print perfect numbers
+			count++;		//to take count of the numbers
 		}	
 	}
 
-	printf("count=%d\n",c);
+	printf("count=%d\n",count);		//to print the count
 }
 

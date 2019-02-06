@@ -1,15 +1,15 @@
 #include<stdio.h>
-int my_strlen(const char *);
+int my_strlen(const char *);		//Function Decl
 int main()
 {
-char s[]="AkhilReddy";
-int l;
-l=my_strlen(s);
-printf("l=%d\n",l);
+	char string[]="AkhilReddy";
+	int length;
+	length=my_strlen(string);			//Function call
+	printf("The given string length is %d\n",length);	//To print string length on screen 
 }
-int my_strlen(const char *p)
+int my_strlen(const char *p)		//Function Definition
 {
-int i,l;
-for(i=0;p[i];i++)
-return l;
+	int i,length;
+	for(i=0;p[i];i++)		//Loop to get length
+		return length;		//To return to Length
 }
