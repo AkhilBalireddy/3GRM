@@ -1,24 +1,23 @@
 #include<stdio.h>
 int main()
 {
-	int num,sum,i,r,temp;
-	printf("enter the number\n");
-	scanf("%d",&num);
-//	temp=num;
-//	while(num>0)
+	int number,sum,i,r,temparary;
+	printf("enter the number\n");       //To take a Number from the user
+	scanf("%d",&number);        //To scan The Given Number
+//	temparary=number;
+//	while(number>0)
 
-for(i=0;i<=num;i++)
+for(i=0;i<=number;i++)      //Loop Rotation to get Perfect numbers
 	{
-		num=num%10;
-		sum=sum+num;
+		number=number%10;       //Condition to get digits individually
+		sum=sum+number;         //Condition to get sum value
 //num=num/10;
 //num++;		
 	}
 
 //	num=temp;
-	if(sum==num)
-		printf("Perfect Number");
+	if(sum==number)     //Condition for Perfect number
+		printf("Given Number is Perfect Number");   //To print as Perfect number on Screen
 	else
-		printf("Not Perfect Number");
-}
+		printf("Given number is not Perfect Number");   //To print not perfect number on screen
 
