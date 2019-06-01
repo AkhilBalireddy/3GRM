@@ -3,10 +3,10 @@ int main()
 {
     int Dividend, Divisor, Quotient, Remainder;
    
- printf("Enter Dividend");
+ printf("Enter Dividend:- ");
     scanf("%d", &Dividend);     //to scan the dividend
 
-    printf("Enter Divisor");
+    printf("Enter Divisor:- ");
     scanf("%d", &Divisor);      //to scan the divisor
 
     Quotient=Dividend/Divisor;      //condition to get quotient
