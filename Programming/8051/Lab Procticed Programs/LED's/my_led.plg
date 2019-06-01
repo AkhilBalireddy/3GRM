@@ -1,0 +1,24 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+V:\aravind\8051\LED's\my_ledd.uvproj
+Project File Date:  05/19/2019
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+compiling io_driver.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_MS?DELAY_1MS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_READ?IO_DRIVER
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER
+Program Size: data=11.0 xdata=0 code=286
+creating hex file from "my_led"...
+"my_led" - 0 Error(s), 4 Warning(s).

@@ -1,0 +1,6 @@
+"io_driver.obj",
+"main.obj",
+"keypad.obj",
+"io_timer.obj" 
+TO "key" 
+RAMSIZE(256) 

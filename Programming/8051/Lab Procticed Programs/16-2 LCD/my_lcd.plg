@@ -1,0 +1,662 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+V:\aravind\8051\16-2 LCD\my_lcd.uvproj
+Project File Date:  05/20/2019
+
+<h2>Output:</h2>
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?LCD_DRIVER
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0017H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 002AH
+Program Size: data=13.0 xdata=0 code=250
+creating hex file from "my_lcd"...
+"my_lcd" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?LCD_DRIVER
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0017H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 002AH
+Program Size: data=13.0 xdata=0 code=250
+creating hex file from "my_lcd"...
+"my_lcd" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?LCD_DRIVER
+Program Size: data=13.0 xdata=0 code=174
+creating hex file from "my_lcd"...
+"my_lcd" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?LCD_DRIVER
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 001CH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 002FH
+Program Size: data=13.0 xdata=0 code=255
+creating hex file from "my_lcd"...
+"my_lcd" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?LCD_DRIVER
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0028H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 003BH
+Program Size: data=13.0 xdata=0 code=267
+creating hex file from "my_lcd"...
+"my_lcd" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?LCD_DRIVER
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0028H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 003BH
+Program Size: data=13.0 xdata=0 code=267
+creating hex file from "my_lcd"...
+"my_lcd" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?LCD_DRIVER
+Program Size: data=13.0 xdata=0 code=188
+creating hex file from "my_lcd"...
+"my_lcd" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?LCD_DRIVER
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0028H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 003BH
+Program Size: data=13.0 xdata=0 code=267
+creating hex file from "my_lcd"...
+"my_lcd" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?LCD_DRIVER
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0028H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 003BH
+Program Size: data=13.0 xdata=0 code=267
+creating hex file from "my_lcd"...
+"my_lcd" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+main.c(17): error C141: syntax error near '}'
+main.c(17): error C141: syntax error near ''
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(22): error C141: syntax error near ''
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(21): error C141: syntax error near ''
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(19): error C141: syntax error near ''
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(19): error C141: syntax error near ''
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(19): error C141: syntax error near ''
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(19): error C141: syntax error near ''
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?LCD_DRIVER
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?LCD_DRIVER
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0014H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0049H
+Program Size: data=13.0 xdata=0 code=248
+creating hex file from "my_lcd"...
+"my_lcd" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?LCD_DRIVER
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?LCD_DRIVER
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0014H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0049H
+Program Size: data=13.0 xdata=0 code=248
+creating hex file from "my_lcd"...
+"my_lcd" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?LCD_DRIVER
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?LCD_DRIVER
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0014H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0049H
+Program Size: data=13.0 xdata=0 code=248
+creating hex file from "my_lcd"...
+"my_lcd" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?LCD_DRIVER
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?LCD_DRIVER
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0014H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0049H
+Program Size: data=13.0 xdata=0 code=248
+creating hex file from "my_lcd"...
+"my_lcd" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+main.c(7): error C141: syntax error near 'while'
+main.c(9): error C231: 'n': redefinition
+main.c(11): error C141: syntax error near '2'
+main.c(11): error C141: syntax error near '==', expected ')'
+main.c(14): error C231: '_lcd_cmd': redefinition
+main.c(21): error C141: syntax error near '}'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(7): error C141: syntax error near 'while'
+main.c(9): error C231: 'n': redefinition
+main.c(11): error C141: syntax error near '2'
+main.c(11): error C141: syntax error near '==', expected ')'
+main.c(14): error C231: '_lcd_cmd': redefinition
+main.c(21): error C141: syntax error near '}'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(7): error C141: syntax error near 'while'
+main.c(9): error C231: 'n': redefinition
+main.c(11): error C141: syntax error near '2'
+main.c(11): error C141: syntax error near '==', expected ')'
+main.c(14): error C231: '_lcd_cmd': redefinition
+main.c(21): error C141: syntax error near '}'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?LCD_DRIVER
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?LCD_DRIVER
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0014H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0049H
+Program Size: data=13.0 xdata=0 code=248
+creating hex file from "my_lcd"...
+"my_lcd" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?LCD_DRIVER
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?LCD_DRIVER
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0016H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 004BH
+Program Size: data=13.0 xdata=0 code=250
+creating hex file from "my_lcd"...
+"my_lcd" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?LCD_DRIVER
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0017H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 004CH
+Program Size: data=13.0 xdata=0 code=251
+creating hex file from "my_lcd"...
+"my_lcd" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?LCD_DRIVER
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0017H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 004CH
+Program Size: data=13.0 xdata=0 code=251
+creating hex file from "my_lcd"...
+"my_lcd" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+main.c(29): error C141: syntax error near '}'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(29): error C141: syntax error near '}'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(29): error C141: syntax error near '}'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?LCD_DRIVER
+Program Size: data=13.0 xdata=0 code=176
+creating hex file from "my_lcd"...
+"my_lcd" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?LCD_DRIVER
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 001CH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 002FH
+Program Size: data=13.0 xdata=0 code=255
+creating hex file from "my_lcd"...
+"my_lcd" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?LCD_DRIVER
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 001CH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 002FH
+Program Size: data=13.0 xdata=0 code=255
+creating hex file from "my_lcd"...
+"my_lcd" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?LCD_DRIVER
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 001CH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 002FH
+Program Size: data=13.0 xdata=0 code=255
+creating hex file from "my_lcd"...
+"my_lcd" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?LCD_DRIVER
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 001CH
+Program Size: data=13.0 xdata=0 code=235
+creating hex file from "my_lcd"...
+"my_lcd" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?LCD_DRIVER
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0017H
+Program Size: data=13.0 xdata=0 code=243
+creating hex file from "my_lcd"...
+"my_lcd" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?LCD_DRIVER
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0017H
+Program Size: data=13.0 xdata=0 code=243
+creating hex file from "my_lcd"...
+"my_lcd" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?LCD_DRIVER
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0017H
+Program Size: data=13.0 xdata=0 code=239
+creating hex file from "my_lcd"...
+"my_lcd" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?LCD_DRIVER
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0017H
+Program Size: data=13.0 xdata=0 code=238
+creating hex file from "my_lcd"...
+"my_lcd" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?LCD_DRIVER
+Program Size: data=13.0 xdata=0 code=176
+creating hex file from "my_lcd"...
+"my_lcd" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?LCD_DRIVER
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+Program Size: data=13.0 xdata=0 code=176
+creating hex file from "my_lcd"...
+"my_lcd" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?LCD_DRIVER
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 001CH
+Program Size: data=13.0 xdata=0 code=243
+creating hex file from "my_lcd"...
+"my_lcd" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling lcd_driver.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?LCD_DRIVER
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_READ
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 001CH
+Program Size: data=13.0 xdata=0 code=243
+creating hex file from "my_lcd"...
+"my_lcd" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling io_driver.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?LCD_DRIVER
+Program Size: data=15.0 xdata=0 code=488
+creating hex file from "my_lcd"...
+"my_lcd" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?LCD_DRIVER
+Program Size: data=15.0 xdata=0 code=488
+creating hex file from "my_lcd"...
+"my_lcd" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+main.c(34): error C141: syntax error near ''
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_READ?IO_DRIVER
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?LCD_DRIVER
+Program Size: data=15.0 xdata=0 code=421
+creating hex file from "my_lcd"...
+"my_lcd" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_READ?IO_DRIVER
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?LCD_DRIVER
+Program Size: data=15.0 xdata=0 code=421
+creating hex file from "my_lcd"...
+"my_lcd" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?LCD_DRIVER
+Program Size: data=15.0 xdata=0 code=513
+creating hex file from "my_lcd"...
+"my_lcd" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?LCD_DRIVER
+Program Size: data=15.0 xdata=0 code=513
+creating hex file from "my_lcd"...
+"my_lcd" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?LCD_DRIVER
+Program Size: data=15.0 xdata=0 code=505
+creating hex file from "my_lcd"...
+"my_lcd" - 0 Error(s), 3 Warning(s).

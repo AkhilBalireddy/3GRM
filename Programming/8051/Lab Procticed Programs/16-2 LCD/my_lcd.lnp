@@ -1,0 +1,6 @@
+"delay_ms.obj",
+"io_driver.obj",
+"main.obj",
+"lcd_driver.obj" 
+TO "my_lcd" 
+RAMSIZE(256) 

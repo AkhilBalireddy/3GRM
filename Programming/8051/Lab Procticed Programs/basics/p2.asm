@@ -1,0 +1,3 @@
+CSEG AT 0X0
+MOV A,#12
+END

@@ -1,0 +1,147 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+V:\aravind\8051\LED's\class_asmnt.uvproj
+Project File Date:  05/19/2019
+
+<h2>Output:</h2>
+Build target 'Target 1'
+Target has no object modules
+Target not created
+Build target 'Target 1'
+compiling delay_ms.c...
+compiling io_driver_asmnt.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_MS?DELAY_MS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_READ?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L10: CANNOT DETERMINE ROOT SEGMENT
+Program Size: data=10.0 xdata=0 code=270
+"class_asmnt" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main_asmnt.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+Program Size: data=12.0 xdata=0 code=349
+"class_asmnt" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+Program Size: data=12.0 xdata=0 code=349
+"class_asmnt" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+Program Size: data=12.0 xdata=0 code=349
+"class_asmnt" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+Program Size: data=12.0 xdata=0 code=349
+"class_asmnt" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+Program Size: data=12.0 xdata=0 code=349
+"class_asmnt" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+Program Size: data=12.0 xdata=0 code=349
+"class_asmnt" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+Program Size: data=12.0 xdata=0 code=349
+"class_asmnt" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+Program Size: data=12.0 xdata=0 code=349
+"class_asmnt" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+Program Size: data=12.0 xdata=0 code=349
+"class_asmnt" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+Program Size: data=12.0 xdata=0 code=349
+"class_asmnt" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main_asmnt.c...
+main_asmnt.c(17): error C202: 'LED': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main_asmnt.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_MS?DELAY_MS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_READ?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+Program Size: data=11.0 xdata=0 code=286
+"class_asmnt" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main_asmnt.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_MS?DELAY_MS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_READ?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+Program Size: data=13.0 xdata=0 code=293
+"class_asmnt" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main_asmnt.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_MS?DELAY_MS
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_READ?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+Program Size: data=13.0 xdata=0 code=311
+"class_asmnt" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main_asmnt.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_READ?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+Program Size: data=13.0 xdata=0 code=329
+"class_asmnt" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_READ?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+Program Size: data=13.0 xdata=0 code=329
+creating hex file from "asmnt1"...
+"asmnt1" - 0 Error(s), 2 Warning(s).

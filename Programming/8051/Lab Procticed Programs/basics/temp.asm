@@ -1,0 +1,2 @@
+CSEG AT 0X0
+MOV R0,#3

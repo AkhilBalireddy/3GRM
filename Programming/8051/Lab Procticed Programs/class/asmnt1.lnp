@@ -1,0 +1,6 @@
+"io_driver_asmnt.obj",
+"delay_ms.obj",
+"main_asmnt.obj",
+"io_lcd.obj" 
+TO "asmnt1" 
+RAMSIZE(256) 

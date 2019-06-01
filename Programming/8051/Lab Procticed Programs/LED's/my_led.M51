@@ -1,0 +1,180 @@
+BL51 BANKED LINKER/LOCATER V6.22                                                        05/20/2019  14:37:08  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
+C:\KEIL4\C51\BIN\BL51.EXE delay_1ms.obj, main.obj, io_driver.obj TO my_led RAMSIZE (256)
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  delay_1ms.obj (DELAY_1MS)
+  main.obj (MAIN)
+  io_driver.obj (IO_DRIVER)
+  C:\KEIL4\C51\LIB\C51S.LIB (?C_STARTUP)
+
+
+LINK MAP OF MODULE:  my_led (DELAY_1MS)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            DATA    0008H     0002H     UNIT         ?DT?_IO_READ?IO_DRIVER
+            IDATA   000AH     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+            CODE    0003H     00AAH     UNIT         ?PR?_IO_READ?IO_DRIVER
+            CODE    00ADH     002EH     UNIT         ?PR?_IO_WRITE?IO_DRIVER
+            CODE    00DBH     001DH     UNIT         ?PR?_IO_BYTE_WRITE?IO_DRIVER
+            CODE    00F8H     0019H     UNIT         ?PR?_DELAY_MS?DELAY_1MS
+            CODE    0111H     000CH     UNIT         ?C_C51STARTUP
+            CODE    011DH     0001H     UNIT         ?PR?MAIN?MAIN
+
+
+
+OVERLAY MAP OF MODULE:   my_led (DELAY_1MS)
+
+
+SEGMENT
+  +--> CALLED SEGMENT
+---------------------
+?C_C51STARTUP
+  +--> ?PR?MAIN?MAIN
+
+
+
+SYMBOL TABLE OF MODULE:  my_led (DELAY_1MS)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        DELAY_1MS
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  C:00F8H         PUBLIC        _delay_ms
+  -------         PROC          _DELAY_MS
+  D:0006H         SYMBOL        ms
+  -------         DO            
+BL51 BANKED LINKER/LOCATER V6.22                                                      05/20/2019  14:37:08  PAGE 2
+
+
+  D:0005H         SYMBOL        i
+  -------         ENDDO         
+  C:00F8H         LINE#         1
+  C:00F8H         LINE#         2
+  C:00F8H         LINE#         4
+  C:0101H         LINE#         5
+  C:0101H         LINE#         6
+  C:0105H         LINE#         7
+  C:0109H         LINE#         8
+  C:0110H         LINE#         9
+  -------         ENDPROC       _DELAY_MS
+  -------         ENDMOD        DELAY_1MS
+
+  -------         MODULE        MAIN
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:00B0H         PUBLIC        P3
+  C:011DH         PUBLIC        main
+  -------         PROC          MAIN
+  C:011DH         LINE#         9
+  C:011DH         LINE#         10
+  C:011DH         LINE#         12
+  -------         ENDPROC       MAIN
+  -------         ENDMOD        MAIN
+
+  -------         MODULE        IO_DRIVER
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  C:00DBH         PUBLIC        _io_byte_write
+  D:0080H         PUBLIC        P0
+  D:0090H         PUBLIC        P1
+  D:00A0H         PUBLIC        P2
+  D:00B0H         PUBLIC        P3
+  C:0003H         PUBLIC        _io_read
+  C:00ADH         PUBLIC        _io_write
+  -------         PROC          _IO_READ
+  D:0006H         SYMBOL        PORT
+  D:0004H         SYMBOL        PIN
+  -------         DO            
+  D:0008H         SYMBOL        stat
+  -------         ENDDO         
+  C:0003H         LINE#         3
+  C:0003H         LINE#         4
+  C:0003H         LINE#         6
+  C:001AH         LINE#         7
+  C:001AH         LINE#         8
+  C:001AH         LINE#         9
+  C:003BH         LINE#         10
+  C:003DH         LINE#         11
+  C:003DH         LINE#         12
+  C:005EH         LINE#         13
+  C:0060H         LINE#         14
+  C:0060H         LINE#         15
+  C:0081H         LINE#         16
+  C:0083H         LINE#         17
+  C:0083H         LINE#         18
+  C:00A8H         LINE#         19
+  C:00A8H         LINE#         20
+  C:00A8H         LINE#         21
+BL51 BANKED LINKER/LOCATER V6.22                                                      05/20/2019  14:37:08  PAGE 3
+
+
+  C:00ACH         LINE#         22
+  -------         ENDPROC       _IO_READ
+  -------         PROC          _IO_BYTE_WRITE
+  D:0006H         SYMBOL        PORT
+  D:0004H         SYMBOL        Byte
+  C:00DBH         LINE#         24
+  C:00DBH         LINE#         25
+  C:00DBH         LINE#         26
+  C:00ECH         LINE#         27
+  C:00ECH         LINE#         29
+  C:00ECH         LINE#         30
+  C:00EEH         LINE#         31
+  C:00EFH         LINE#         35
+  C:00EFH         LINE#         36
+  C:00F1H         LINE#         37
+  C:00F2H         LINE#         41
+  C:00F2H         LINE#         42
+  C:00F4H         LINE#         43
+  C:00F5H         LINE#         47
+  C:00F5H         LINE#         48
+  C:00F7H         LINE#         49
+  C:00F7H         LINE#         51
+  C:00F7H         LINE#         52
+  -------         ENDPROC       _IO_BYTE_WRITE
+  -------         PROC          _IO_WRITE
+  D:0006H         SYMBOL        PORT
+  D:0004H         SYMBOL        PIN
+  D:0002H         SYMBOL        VAL
+  C:00ADH         LINE#         54
+  C:00ADH         LINE#         55
+  C:00ADH         LINE#         57
+  C:00B5H         LINE#         58
+  C:00B5H         LINE#         78
+  C:00B5H         LINE#         79
+  C:00BBH         LINE#         80
+  C:00CAH         LINE#         82
+  C:00DAH         LINE#         83
+  C:00DAH         LINE#         94
+  C:00DAH         LINE#         95
+  -------         ENDPROC       _IO_WRITE
+  -------         ENDMOD        IO_DRIVER
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_MS?DELAY_1MS
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_READ?IO_DRIVER
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER
+
+Program Size: data=11.0 xdata=0 code=286
+LINK/LOCATE RUN COMPLETE.  4 WARNING(S),  0 ERROR(S)

@@ -1,0 +1,691 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+V:\aravind\8051\basics\aravind.uvproj
+Project File Date:  05/16/2019
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling data1.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?DATA1
+Program Size: data=9.0 xdata=2 code=26
+"aravind" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?DATA1
+Program Size: data=9.0 xdata=2 code=26
+"aravind" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?DATA1
+Program Size: data=9.0 xdata=2 code=26
+"aravind" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?DATA1
+Program Size: data=9.0 xdata=2 code=26
+"aravind" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling data1.c...
+data1.c(4): warning C280: 'p': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?DATA1
+Program Size: data=9.0 xdata=2 code=17
+"aravind" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?DATA1
+Program Size: data=9.0 xdata=2 code=17
+"aravind" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?DATA1
+Program Size: data=9.0 xdata=2 code=17
+"aravind" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?DATA1
+Program Size: data=9.0 xdata=2 code=17
+"aravind" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(7): error C141: syntax error near 'sfr'
+data_typ.c(7): error C202: 'fdf': undefined identifier
+data_typ.c(8): error C202: 'AC': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(2): error C231: 'P0': redefinition
+data_typ.c(7): error C141: syntax error near 'sfr'
+data_typ.c(7): error C202: 'fdf': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(3): error C231: 'P0': redefinition
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(3): error C231: 'P0': redefinition
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(3): error C231: 'P0': redefinition
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(3): error C231: 'P0': redefinition
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(3): error C231: 'P0': redefinition
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(3): error C231: 'P0': redefinition
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(3): error C231: 'P0': redefinition
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(3): error C231: 'P0': redefinition
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(3): error C231: 'P0': redefinition
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(3): error C231: 'P0': redefinition
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(3): error C231: 'P0': redefinition
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(3): error C231: 'P0': redefinition
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+linking...
+Program Size: data=9.0 xdata=0 code=25
+"aravind" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=25
+"aravind" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=25
+"aravind" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=25
+"aravind" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=25
+"aravind" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=25
+"aravind" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=25
+"aravind" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=25
+"aravind" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=25
+"aravind" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling data_typ.c...
+linking...
+Program Size: data=9.0 xdata=0 code=20
+"aravind" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=20
+"aravind" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=20
+"aravind" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=20
+"aravind" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling data_typ.c...
+linking...
+Program Size: data=9.0 xdata=0 code=20
+"aravind" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(1): error C142: 'SFR': invalid base address
+data_typ.c(4): error C202: 'pin0': undefined identifier
+data_typ.c(5): error C202: 'pin0': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(1): error C142: 'SFR': invalid base address
+data_typ.c(4): error C202: 'pin0': undefined identifier
+data_typ.c(5): error C202: 'pin0': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(1): error C142: 'SFR': invalid base address
+data_typ.c(4): error C202: 'pin0': undefined identifier
+data_typ.c(5): error C202: 'pin0': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(1): error C142: 'SFR': invalid base address
+data_typ.c(4): error C202: 'pin0': undefined identifier
+data_typ.c(5): error C202: 'pin0': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(1): error C142: 'SFR': invalid base address
+data_typ.c(4): error C202: 'pin0': undefined identifier
+data_typ.c(5): error C202: 'pin0': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(1): error C142: 'SFR': invalid base address
+data_typ.c(4): error C202: 'pin0': undefined identifier
+data_typ.c(5): error C202: 'pin0': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(1): error C142: 'SFR': invalid base address
+data_typ.c(4): error C202: 'pin0': undefined identifier
+data_typ.c(5): error C202: 'pin0': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(1): error C142: 'SFR': invalid base address
+data_typ.c(4): error C202: 'pin0': undefined identifier
+data_typ.c(5): error C202: 'pin0': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(1): error C142: 'SFR': invalid base address
+data_typ.c(4): error C202: 'pin0': undefined identifier
+data_typ.c(5): error C202: 'pin0': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(1): error C142: 'SFR': invalid base address
+data_typ.c(4): error C202: 'pin0': undefined identifier
+data_typ.c(5): error C202: 'pin0': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+linking...
+Program Size: data=9.0 xdata=0 code=20
+"aravind" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling data_typ.c...
+linking...
+Program Size: data=9.0 xdata=0 code=20
+"aravind" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=20
+"aravind" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=20
+"aravind" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=20
+"aravind" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=20
+"aravind" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling data_typ.c...
+linking...
+Program Size: data=9.0 xdata=0 code=20
+"aravind" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=20
+"aravind" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=20
+"aravind" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling data_typ.c...
+linking...
+Program Size: data=9.0 xdata=0 code=20
+"aravind" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling data_typ.c...
+linking...
+Program Size: data=9.0 xdata=0 code=20
+"aravind" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling data_typ.c...
+linking...
+Program Size: data=9.0 xdata=0 code=20
+"aravind" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling data_typ.c...
+linking...
+Program Size: data=9.0 xdata=0 code=22
+"aravind" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(5): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(5): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(5): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(5): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(5): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(5): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(5): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(5): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(5): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(5): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(5): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(5): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(6): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(6): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(6): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(6): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(5): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling data_typ.c...
+data_typ.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling abc.c...
+abc.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling abc.c...
+abc.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling abc.c...
+abc.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling abc.c...
+abc.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling abc.c...
+abc.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling abc.c...
+abc.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling abc.c...
+abc.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+assembling P12.asm...
+linking...
+Program Size: data=8.0 xdata=0 code=2
+"aravind" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=8.0 xdata=0 code=2
+"aravind" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=8.0 xdata=0 code=2
+"aravind" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=8.0 xdata=0 code=2
+"aravind" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=8.0 xdata=0 code=2
+"aravind" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling abc.c...
+abc.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling abc.c...
+abc.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling abc.c...
+abc.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling abc.c...
+abc.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling abc.c...
+abc.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling abc.c...
+abc.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling abc.c...
+abc.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling abc.c...
+abc.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling abc.c...
+abc.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling abc.c...
+abc.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling abc.c...
+abc.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling abc.c...
+abc.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling abc.c...
+abc.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling abc.c...
+abc.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling abc.c...
+abc.c(4): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling abc.c...
+abc.c(5): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling abc.c...
+abc.c(2): error C129: missing ';' before '_at_0x40'
+Target not created
+Build target 'Target 1'
+compiling abc.c...
+abc.c(5): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling abc.c...
+abc.c(2): error C129: missing ';' before '0x40'
+Target not created
+Build target 'Target 1'
+compiling abc.c...
+abc.c(5): error C202: 'abc': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling abc.c...
+abc.c(2): error C129: missing ';' before '0x40'
+Target not created
+Build target 'Target 1'
+compiling abc.c...
+abc.c(2): error C129: missing ';' before '0x40'
+Target not created
+Build target 'Target 1'
+compiling abc.c...
+abc.c(2): error C129: missing ';' before '0x40'
+Target not created
+Build target 'Target 1'
+compiling abc.c...
+abc.c(2): error C129: missing ';' before '0x40'
+Target not created
+Build target 'Target 1'
+compiling abc.c...
+abc.c(2): error C129: missing ';' before '0x40'
+Target not created
+Build target 'Target 1'
+compiling abc.c...
+abc.c(2): error C129: missing ';' before '0x40'
+Target not created
+Build target 'Target 1'
+compiling abc.c...
+abc.c(2): error C129: missing ';' before '0x40'
+Target not created
+Build target 'Target 1'
+compiling abc.c...
+abc.c(2): error C129: missing ';' before '0x40'
+Target not created
+Build target 'Target 1'
+compiling abc.c...
+linking...
+Program Size: data=10.0 xdata=0 code=19
+"aravind" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+Target has no object modules
+Target not created

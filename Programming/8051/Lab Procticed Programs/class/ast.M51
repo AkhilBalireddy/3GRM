@@ -1,0 +1,290 @@
+BL51 BANKED LINKER/LOCATER V6.22                                                        05/21/2019  14:47:44  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
+C:\KEIL\C51\BIN\BL51.EXE io_driver_asmnt.obj, delay_ms.obj, main_2.obj, io_lcd.obj TO ast RAMSIZE (256)
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  io_driver_asmnt.obj (IO_DRIVER_ASMNT)
+  delay_ms.obj (DELAY_MS)
+  main_2.obj (MAIN_2)
+  io_lcd.obj (IO_LCD)
+  C:\KEIL\C51\LIB\C51S.LIB (?C_STARTUP)
+  C:\KEIL\C51\LIB\C51S.LIB (?C?SCDIV)
+  C:\KEIL\C51\LIB\C51S.LIB (?C?CLDPTR)
+
+
+LINK MAP OF MODULE:  ast (IO_DRIVER_ASMNT)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            DATA    0008H     0003H     UNIT         ?DT?_LCD_STRING?IO_LCD
+            DATA    000BH     0003H     UNIT         _DATA_GROUP_
+            IDATA   000EH     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+            CODE    0003H     00AAH     UNIT         ?PR?_IO_READ?IO_DRIVER_ASMNT
+            CODE    00ADH     0055H     UNIT         ?PR?MAIN?MAIN_2
+            CODE    0102H     003BH     UNIT         ?C?LIB_CODE
+            CODE    013DH     002EH     UNIT         ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+            CODE    016BH     0025H     UNIT         ?PR?_LCD_STRING?IO_LCD
+            CODE    0190H     001DH     UNIT         ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+            CODE    01ADH     0019H     UNIT         ?PR?_DELAY_MS?DELAY_MS
+            CODE    01C6H     0019H     UNIT         ?PR?LCD_INIT?IO_LCD
+            CODE    01DFH     0012H     UNIT         ?PR?_LCD_CMD?IO_LCD
+            CODE    01F1H     0012H     UNIT         ?PR?_LCD_DATA?IO_LCD
+            CODE    0203H     000CH     UNIT         ?C_C51STARTUP
+
+
+
+OVERLAY MAP OF MODULE:   ast (IO_DRIVER_ASMNT)
+
+
+SEGMENT                                      DATA_GROUP 
+  +--> CALLED SEGMENT                      START    LENGTH
+----------------------------------------------------------
+?C_C51STARTUP                              -----    -----
+  +--> ?PR?MAIN?MAIN_2
+
+?PR?MAIN?MAIN_2                            000BH    0001H
+  +--> ?PR?LCD_INIT?IO_LCD
+  +--> ?PR?_IO_READ?IO_DRIVER_ASMNT
+  +--> ?PR?_DELAY_MS?DELAY_MS
+BL51 BANKED LINKER/LOCATER V6.22                                                      05/21/2019  14:47:44  PAGE 2
+
+
+  +--> ?PR?_LCD_CMD?IO_LCD
+  +--> ?PR?_LCD_DATA?IO_LCD
+
+?PR?LCD_INIT?IO_LCD                        -----    -----
+  +--> ?PR?_LCD_CMD?IO_LCD
+
+?PR?_LCD_CMD?IO_LCD                        -----    -----
+  +--> ?PR?_DELAY_MS?DELAY_MS
+
+?PR?_IO_READ?IO_DRIVER_ASMNT               000CH    0002H
+
+?PR?_LCD_DATA?IO_LCD                       -----    -----
+  +--> ?PR?_DELAY_MS?DELAY_MS
+
+
+
+SYMBOL TABLE OF MODULE:  ast (IO_DRIVER_ASMNT)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        IO_DRIVER_ASMNT
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  C:0190H         PUBLIC        _io_byte_write
+  D:0080H         PUBLIC        P0
+  D:0090H         PUBLIC        P1
+  D:00A0H         PUBLIC        P2
+  D:00B0H         PUBLIC        P3
+  C:0003H         PUBLIC        _io_read
+  C:013DH         PUBLIC        _io_write
+  -------         PROC          _IO_READ
+  D:0006H         SYMBOL        PORT
+  D:0004H         SYMBOL        PIN
+  -------         DO            
+  D:000CH         SYMBOL        stat
+  -------         ENDDO         
+  C:0003H         LINE#         4
+  C:0003H         LINE#         5
+  C:0003H         LINE#         7
+  C:001AH         LINE#         8
+  C:001AH         LINE#         9
+  C:001AH         LINE#         10
+  C:003BH         LINE#         11
+  C:003DH         LINE#         12
+  C:003DH         LINE#         13
+  C:005EH         LINE#         14
+  C:0060H         LINE#         15
+  C:0060H         LINE#         16
+  C:0081H         LINE#         17
+  C:0083H         LINE#         18
+  C:0083H         LINE#         19
+  C:00A8H         LINE#         20
+  C:00A8H         LINE#         21
+  C:00A8H         LINE#         22
+  C:00ACH         LINE#         23
+  -------         ENDPROC       _IO_READ
+  -------         PROC          _IO_BYTE_WRITE
+BL51 BANKED LINKER/LOCATER V6.22                                                      05/21/2019  14:47:44  PAGE 3
+
+
+  D:0006H         SYMBOL        PORT
+  D:0004H         SYMBOL        Byte
+  C:0190H         LINE#         25
+  C:0190H         LINE#         26
+  C:0190H         LINE#         27
+  C:01A1H         LINE#         28
+  C:01A1H         LINE#         30
+  C:01A1H         LINE#         31
+  C:01A3H         LINE#         32
+  C:01A4H         LINE#         36
+  C:01A4H         LINE#         37
+  C:01A6H         LINE#         38
+  C:01A7H         LINE#         42
+  C:01A7H         LINE#         43
+  C:01A9H         LINE#         44
+  C:01AAH         LINE#         48
+  C:01AAH         LINE#         49
+  C:01ACH         LINE#         50
+  C:01ACH         LINE#         52
+  C:01ACH         LINE#         53
+  -------         ENDPROC       _IO_BYTE_WRITE
+  -------         PROC          _IO_WRITE
+  D:0006H         SYMBOL        PORT
+  D:0004H         SYMBOL        PIN
+  D:0002H         SYMBOL        VAL
+  C:013DH         LINE#         55
+  C:013DH         LINE#         56
+  C:013DH         LINE#         58
+  C:0145H         LINE#         59
+  C:0145H         LINE#         79
+  C:0145H         LINE#         80
+  C:014BH         LINE#         81
+  C:015AH         LINE#         83
+  C:016AH         LINE#         84
+  C:016AH         LINE#         95
+  C:016AH         LINE#         96
+  -------         ENDPROC       _IO_WRITE
+  -------         ENDMOD        IO_DRIVER_ASMNT
+
+  -------         MODULE        DELAY_MS
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  C:01ADH         PUBLIC        _delay_ms
+  -------         PROC          _DELAY_MS
+  D:0006H         SYMBOL        ms
+  -------         DO            
+  D:0005H         SYMBOL        i
+  -------         ENDDO         
+  C:01ADH         LINE#         1
+  C:01ADH         LINE#         2
+  C:01ADH         LINE#         4
+  C:01B6H         LINE#         5
+  C:01B6H         LINE#         6
+  C:01BAH         LINE#         7
+  C:01BEH         LINE#         8
+  C:01C5H         LINE#         9
+  -------         ENDPROC       _DELAY_MS
+  -------         ENDMOD        DELAY_MS
+BL51 BANKED LINKER/LOCATER V6.22                                                      05/21/2019  14:47:44  PAGE 4
+
+
+
+  -------         MODULE        MAIN_2
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  C:00ADH         PUBLIC        main
+  -------         PROC          MAIN
+  -------         DO            
+  D:000BH         SYMBOL        n
+  -------         ENDDO         
+  C:00ADH         LINE#         5
+  C:00ADH         LINE#         6
+  C:00ADH         LINE#         7
+  C:00B0H         LINE#         8
+  C:00B3H         LINE#         11
+  C:00B3H         LINE#         12
+  C:00B3H         LINE#         13
+  C:00C0H         LINE#         14
+  C:00C0H         LINE#         15
+  C:00C6H         LINE#         16
+  C:00D3H         LINE#         17
+  C:00DAH         LINE#         18
+  C:00DCH         LINE#         19
+  C:00E1H         LINE#         20
+  C:00EFH         LINE#         21
+  C:0100H         LINE#         23
+  C:0100H         LINE#         39
+  -------         ENDPROC       MAIN
+  -------         ENDMOD        MAIN_2
+
+  -------         MODULE        IO_LCD
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:0080H         PUBLIC        P0
+  D:00B0H         PUBLIC        P3
+  B:00B0H.6       PUBLIC        EN
+  B:00B0H.4       PUBLIC        RS
+  B:00B0H.5       PUBLIC        RW
+  C:016BH         PUBLIC        _lcd_string
+  C:01F1H         PUBLIC        _lcd_data
+  C:01DFH         PUBLIC        _lcd_cmd
+  C:01C6H         PUBLIC        lcd_init
+  -------         PROC          _LCD_STRING
+  D:0008H         SYMBOL        s
+  C:016BH         LINE#         8
+  C:0171H         LINE#         9
+  C:0171H         LINE#         10
+  C:017CH         LINE#         11
+  C:017CH         LINE#         12
+  C:018DH         LINE#         13
+  C:018FH         LINE#         14
+  -------         ENDPROC       _LCD_STRING
+  -------         PROC          _LCD_CMD
+  D:0007H         SYMBOL        c
+  C:01DFH         LINE#         18
+  C:01DFH         LINE#         19
+  C:01DFH         LINE#         20
+  C:01E1H         LINE#         21
+  C:01E3H         LINE#         22
+  C:01E5H         LINE#         23
+BL51 BANKED LINKER/LOCATER V6.22                                                      05/21/2019  14:47:44  PAGE 5
+
+
+  C:01E7H         LINE#         24
+  C:01EEH         LINE#         25
+  C:01F0H         LINE#         26
+  -------         ENDPROC       _LCD_CMD
+  -------         PROC          _LCD_DATA
+  D:0007H         SYMBOL        d
+  C:01F1H         LINE#         28
+  C:01F1H         LINE#         29
+  C:01F1H         LINE#         30
+  C:01F3H         LINE#         31
+  C:01F5H         LINE#         32
+  C:01F7H         LINE#         33
+  C:01F9H         LINE#         34
+  C:0200H         LINE#         35
+  C:0202H         LINE#         36
+  -------         ENDPROC       _LCD_DATA
+  -------         PROC          LCD_INIT
+  C:01C6H         LINE#         37
+  C:01C6H         LINE#         38
+  C:01C6H         LINE#         39
+  C:01CBH         LINE#         40
+  C:01D0H         LINE#         41
+  C:01D5H         LINE#         42
+  C:01DAH         LINE#         43
+  -------         ENDPROC       LCD_INIT
+  -------         ENDMOD        IO_LCD
+
+  -------         MODULE        ?C?SCDIV
+  C:0102H         PUBLIC        ?C?SCDIV
+  -------         ENDMOD        ?C?SCDIV
+
+  -------         MODULE        ?C?CLDPTR
+  C:0124H         PUBLIC        ?C?CLDPTR
+  -------         ENDMOD        ?C?CLDPTR
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+
+Program Size: data=15.0 xdata=0 code=527
+LINK/LOCATE RUN COMPLETE.  3 WARNING(S),  0 ERROR(S)

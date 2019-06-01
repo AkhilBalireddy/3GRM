@@ -1,0 +1,5 @@
+"delay_ms.obj",
+"io_driver_asmnt.obj",
+"main_asmnt.obj" 
+TO "class_asmnt" 
+RAMSIZE(256) 

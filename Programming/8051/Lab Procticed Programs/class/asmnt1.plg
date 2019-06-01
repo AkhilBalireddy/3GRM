@@ -1,0 +1,1678 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+V:\aravind\8051\class\asmnt.uvproj
+Project File Date:  05/20/2019
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling io_driver_asmnt.c...
+compiling main_2.c...
+compiling io_lcd.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=626
+creating hex file from "asmnt1"...
+"asmnt1" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main_3.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_READ?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?IO_LCD
+*** WARNING L10: CANNOT DETERMINE ROOT SEGMENT
+Program Size: data=13.0 xdata=0 code=393
+creating hex file from "asmnt1"...
+"asmnt1" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling main_asmnt.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?IO_LCD
+Program Size: data=15.0 xdata=0 code=462
+creating hex file from "asmnt1"...
+"asmnt1" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?IO_LCD
+Program Size: data=15.0 xdata=0 code=462
+creating hex file from "asmnt1"...
+"asmnt1" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?IO_LCD
+Program Size: data=15.0 xdata=0 code=462
+creating hex file from "asmnt1"...
+"asmnt1" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?IO_LCD
+Program Size: data=15.0 xdata=0 code=462
+creating hex file from "asmnt1"...
+"asmnt1" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?IO_LCD
+Program Size: data=15.0 xdata=0 code=462
+creating hex file from "asmnt1"...
+"asmnt1" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?IO_LCD
+Program Size: data=15.0 xdata=0 code=462
+creating hex file from "asmnt1"...
+"asmnt1" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?IO_LCD
+Program Size: data=15.0 xdata=0 code=462
+creating hex file from "asmnt1"...
+"asmnt1" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?IO_LCD
+Program Size: data=15.0 xdata=0 code=462
+creating hex file from "asmnt1"...
+"asmnt1" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main_asmnt.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?IO_LCD
+Program Size: data=15.0 xdata=0 code=462
+creating hex file from "asmnt1"...
+"asmnt1" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main_asmnt.c...
+main_asmnt.c(9): warning C206: 'io_byute_write': missing function-prototype
+main_asmnt.c(9): error C267: 'io_byute_write': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling main_asmnt.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?IO_LCD
+Program Size: data=15.0 xdata=0 code=473
+creating hex file from "asmnt1"...
+"asmnt1" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?IO_LCD
+Program Size: data=15.0 xdata=0 code=473
+creating hex file from "asmnt1"...
+"asmnt1" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?IO_LCD
+Program Size: data=15.0 xdata=0 code=473
+creating hex file from "asmnt1"...
+"asmnt1" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?IO_LCD
+Program Size: data=15.0 xdata=0 code=473
+creating hex file from "asmnt1"...
+"asmnt1" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+Program Size: data=12.0 xdata=0 code=350
+creating hex file from "ast"...
+"ast" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+Program Size: data=12.0 xdata=0 code=350
+creating hex file from "ast"...
+"ast" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+Program Size: data=12.0 xdata=0 code=350
+creating hex file from "ast"...
+"ast" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+Program Size: data=12.0 xdata=0 code=350
+creating hex file from "ast"...
+"ast" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+Program Size: data=12.0 xdata=0 code=350
+creating hex file from "ast"...
+"ast" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main_asmnt.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+Program Size: data=12.0 xdata=0 code=364
+creating hex file from "ast"...
+"ast" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main_asmnt.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+Program Size: data=12.0 xdata=0 code=370
+creating hex file from "ast"...
+"ast" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main_asmnt.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+Program Size: data=12.0 xdata=0 code=363
+creating hex file from "ast"...
+"ast" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main_asmnt.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+Program Size: data=12.0 xdata=0 code=370
+creating hex file from "ast"...
+"ast" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+Program Size: data=12.0 xdata=0 code=370
+creating hex file from "ast"...
+"ast" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling io_driver_asmnt.c...
+compiling main_asmnt.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+Program Size: data=12.0 xdata=0 code=359
+creating hex file from "ast"...
+"ast" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main_asmnt.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+Program Size: data=12.0 xdata=0 code=359
+creating hex file from "ast"...
+"ast" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+Program Size: data=12.0 xdata=0 code=359
+creating hex file from "ast"...
+"ast" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main_asmnt.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+Program Size: data=12.0 xdata=0 code=359
+creating hex file from "ast"...
+"ast" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+Program Size: data=12.0 xdata=0 code=359
+creating hex file from "ast"...
+"ast" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+Program Size: data=12.0 xdata=0 code=359
+creating hex file from "ast"...
+"ast" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+Program Size: data=12.0 xdata=0 code=359
+creating hex file from "ast"...
+"ast" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+Program Size: data=12.0 xdata=0 code=359
+creating hex file from "ast"...
+"ast" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+Program Size: data=12.0 xdata=0 code=359
+creating hex file from "ast"...
+"ast" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+Program Size: data=12.0 xdata=0 code=359
+creating hex file from "ast"...
+"ast" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+Program Size: data=12.0 xdata=0 code=359
+creating hex file from "ast"...
+"ast" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main_asmnt.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+Program Size: data=12.0 xdata=0 code=366
+creating hex file from "ast"...
+"ast" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _LCD_DATA
+    MODULE:  main_2.obj (MAIN_2)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _LCD_CMD
+    MODULE:  main_2.obj (MAIN_2)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  LCD_INIT
+    MODULE:  main_2.obj (MAIN_2)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  LCD_INIT
+    MODULE:  main_2.obj (MAIN_2)
+    ADDRESS: 0007H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _LCD_CMD
+    MODULE:  main_2.obj (MAIN_2)
+    ADDRESS: 0035H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _LCD_DATA
+    MODULE:  main_2.obj (MAIN_2)
+    ADDRESS: 0043H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _LCD_DATA
+    MODULE:  main_2.obj (MAIN_2)
+    ADDRESS: 0054H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _LCD_CMD
+    MODULE:  main_2.obj (MAIN_2)
+    ADDRESS: 0088H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _LCD_DATA
+    MODULE:  main_2.obj (MAIN_2)
+    ADDRESS: 009DH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _LCD_DATA
+    MODULE:  main_2.obj (MAIN_2)
+    ADDRESS: 00AEH
+Program Size: data=12.0 xdata=0 code=503
+creating hex file from "ast"...
+"ast" - 0 Error(s), 12 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=626
+creating hex file from "ast"...
+"ast" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=626
+creating hex file from "ast"...
+"ast" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=626
+creating hex file from "ast"...
+"ast" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=626
+creating hex file from "ast"...
+"ast" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=626
+creating hex file from "ast"...
+"ast" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=626
+creating hex file from "ast"...
+"ast" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=626
+creating hex file from "ast"...
+"ast" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=626
+creating hex file from "ast"...
+"ast" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=626
+creating hex file from "ast"...
+"ast" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=626
+creating hex file from "ast"...
+"ast" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=626
+creating hex file from "ast"...
+"ast" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main_2.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=626
+creating hex file from "ast"...
+"ast" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main_2.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=527
+creating hex file from "ast"...
+"ast" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=527
+creating hex file from "ast"...
+"ast" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=527
+creating hex file from "ast"...
+"ast" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=527
+creating hex file from "ast"...
+"ast" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main_2.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=534
+creating hex file from "ast"...
+"ast" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=534
+creating hex file from "ast"...
+"ast" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=534
+creating hex file from "ast"...
+"ast" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main_2.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=534
+creating hex file from "ast"...
+"ast" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=534
+creating hex file from "ast"...
+"ast" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=534
+creating hex file from "ast"...
+"ast" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=534
+creating hex file from "ast"...
+"ast" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=534
+creating hex file from "ast"...
+"ast" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=534
+creating hex file from "ast"...
+"ast" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main_2.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=527
+creating hex file from "ast"...
+"ast" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=527
+creating hex file from "ast"...
+"ast" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=527
+creating hex file from "ast"...
+"ast" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=527
+creating hex file from "a"...
+"a" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=527
+creating hex file from "a"...
+"a" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=527
+creating hex file from "a"...
+"a" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main_2.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=626
+creating hex file from "a"...
+"a" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=626
+creating hex file from "a"...
+"a" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=626
+creating hex file from "a"...
+"a" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=626
+creating hex file from "a"...
+"a" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=626
+creating hex file from "a"...
+"a" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=626
+creating hex file from "a"...
+"a" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=626
+creating hex file from "a"...
+"a" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=626
+creating hex file from "a"...
+"a" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main_2.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=626
+creating hex file from "a"...
+"a" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=626
+creating hex file from "a"...
+"a" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=626
+creating hex file from "a"...
+"a" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=626
+creating hex file from "a"...
+"a" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=626
+creating hex file from "a"...
+"a" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=626
+creating hex file from "a"...
+"a" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main_2.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=624
+creating hex file from "a"...
+"a" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=624
+creating hex file from "a"...
+"a" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=624
+creating hex file from "a"...
+"a" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=624
+creating hex file from "a"...
+"a" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=624
+creating hex file from "a"...
+"a" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=624
+creating hex file from "a"...
+"a" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=624
+creating hex file from "a"...
+"a" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=624
+creating hex file from "a"...
+"a" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=15.0 xdata=0 code=624
+creating hex file from "a"...
+"a" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main_3.c...
+main_3.c(18): error C202: 'n': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main_3.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_READ?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_BYTE_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_IO_WRITE?IO_DRIVER_ASMNT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?IO_LCD
+Program Size: data=16.0 xdata=0 code=563
+creating hex file from "a"...
+"a" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?IO_LCD
+Program Size: data=14.0 xdata=0 code=318
+creating hex file from "a"...
+"a" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main_3.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?IO_LCD
+Program Size: data=14.0 xdata=0 code=325
+creating hex file from "a"...
+"a" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main_3.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?IO_LCD
+Program Size: data=14.0 xdata=0 code=324
+creating hex file from "a"...
+"a" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?IO_LCD
+Program Size: data=14.0 xdata=0 code=324
+creating hex file from "a"...
+"a" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?IO_LCD
+Program Size: data=14.0 xdata=0 code=324
+creating hex file from "a"...
+"a" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?IO_LCD
+Program Size: data=14.0 xdata=0 code=324
+creating hex file from "a"...
+"a" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?IO_LCD
+Program Size: data=14.0 xdata=0 code=324
+creating hex file from "a"...
+"a" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?IO_LCD
+Program Size: data=14.0 xdata=0 code=324
+creating hex file from "a"...
+"a" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?IO_LCD
+Program Size: data=14.0 xdata=0 code=324
+creating hex file from "a"...
+"a" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?IO_LCD
+Program Size: data=14.0 xdata=0 code=324
+creating hex file from "a"...
+"a" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?IO_LCD
+Program Size: data=14.0 xdata=0 code=324
+creating hex file from "a"...
+"a" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main_3.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?IO_LCD
+Program Size: data=14.0 xdata=0 code=326
+creating hex file from "a"...
+"a" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_INIT?IO_LCD
+Program Size: data=14.0 xdata=0 code=326
+creating hex file from "a"...
+"a" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main_3.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=14.0 xdata=0 code=329
+creating hex file from "a"...
+"a" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main_3.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=14.0 xdata=0 code=329
+creating hex file from "a"...
+"a" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=14.0 xdata=0 code=329
+creating hex file from "a"...
+"a" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING?IO_LCD
+Program Size: data=14.0 xdata=0 code=329
+creating hex file from "a"...
+"a" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling io_lcd.c...
+linking...
+Program Size: data=11.0 xdata=0 code=267
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=11.0 xdata=0 code=267
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling io_lcd.c...
+linking...
+Program Size: data=11.0 xdata=0 code=267
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling io_lcd.c...
+compiling main_3.c...
+linking...
+Program Size: data=11.0 xdata=0 code=260
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=11.0 xdata=0 code=260
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main_3.c...
+linking...
+Program Size: data=9.0 xdata=0 code=237
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=237
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main_3.c...
+linking...
+Program Size: data=9.0 xdata=0 code=237
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main_3.c...
+linking...
+Program Size: data=9.0 xdata=0 code=237
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling io_lcd.c...
+linking...
+Program Size: data=9.0 xdata=0 code=237
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling io_lcd.c...
+compiling main_3.c...
+linking...
+Program Size: data=9.0 xdata=0 code=237
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=237
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=237
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling io_lcd.c...
+compiling main_3.c...
+linking...
+Program Size: data=9.0 xdata=0 code=237
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=9.0 xdata=0 code=237
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main_3.c...
+linking...
+Program Size: data=9.0 xdata=0 code=237
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main_3.c...
+linking...
+Program Size: data=11.0 xdata=0 code=247
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main_3.c...
+linking...
+Program Size: data=11.0 xdata=0 code=265
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=11.0 xdata=0 code=265
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main_3.c...
+linking...
+Program Size: data=11.0 xdata=0 code=265
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=11.0 xdata=0 code=265
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main_3.c...
+linking...
+Program Size: data=11.0 xdata=0 code=265
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=11.0 xdata=0 code=265
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=11.0 xdata=0 code=265
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main_3.c...
+linking...
+Program Size: data=11.0 xdata=0 code=263
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=11.0 xdata=0 code=263
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=11.0 xdata=0 code=263
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main_3.c...
+linking...
+Program Size: data=11.0 xdata=0 code=265
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=11.0 xdata=0 code=265
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=11.0 xdata=0 code=265
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=11.0 xdata=0 code=265
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main_3.c...
+linking...
+Program Size: data=11.0 xdata=0 code=265
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=11.0 xdata=0 code=265
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=11.0 xdata=0 code=265
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=11.0 xdata=0 code=265
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main_3.c...
+linking...
+Program Size: data=10.0 xdata=0 code=247
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=10.0 xdata=0 code=247
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main_3.c...
+linking...
+Program Size: data=11.0 xdata=0 code=251
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=11.0 xdata=0 code=251
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main_3.c...
+linking...
+Program Size: data=11.0 xdata=0 code=251
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling io_lcd.c...
+linking...
+Program Size: data=11.0 xdata=0 code=251
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=11.0 xdata=0 code=251
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=11.0 xdata=0 code=251
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=11.0 xdata=0 code=251
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=11.0 xdata=0 code=251
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=11.0 xdata=0 code=251
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main_3.c...
+linking...
+Program Size: data=11.0 xdata=0 code=251
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=11.0 xdata=0 code=251
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=11.0 xdata=0 code=251
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=11.0 xdata=0 code=251
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=11.0 xdata=0 code=251
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=11.0 xdata=0 code=251
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main_3.c...
+linking...
+Program Size: data=11.0 xdata=0 code=251
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main_3.c...
+linking...
+Program Size: data=11.0 xdata=0 code=251
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main_3.c...
+main_3.c(13): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_DATA?IO_LCD
+Program Size: data=10.0 xdata=0 code=213
+creating hex file from "a"...
+"a" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main_3.c...
+main_3.c(13): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_DATA?IO_LCD
+Program Size: data=10.0 xdata=0 code=213
+creating hex file from "a"...
+"a" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main_3.c...
+main_3.c(13): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_DATA?IO_LCD
+Program Size: data=10.0 xdata=0 code=214
+creating hex file from "a"...
+"a" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_DATA?IO_LCD
+Program Size: data=10.0 xdata=0 code=214
+creating hex file from "a"...
+"a" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_DATA?IO_LCD
+Program Size: data=10.0 xdata=0 code=214
+creating hex file from "a"...
+"a" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling io_lcd.c...
+compiling main_3.c...
+main_3.c(19): error C202: 'PORT0': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling io_lcd.c...
+compiling main_3.c...
+main_3.c(13): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_DATA?IO_LCD
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _IO_BYTE_WRITE
+    MODULE:  main_3.obj (MAIN_3)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_BYTE_WRITE
+    MODULE:  main_3.obj (MAIN_3)
+    ADDRESS: 0070H
+Program Size: data=10.0 xdata=0 code=224
+creating hex file from "a"...
+"a" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_DATA?IO_LCD
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _IO_BYTE_WRITE
+    MODULE:  main_3.obj (MAIN_3)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_BYTE_WRITE
+    MODULE:  main_3.obj (MAIN_3)
+    ADDRESS: 0070H
+Program Size: data=10.0 xdata=0 code=224
+creating hex file from "a"...
+"a" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_DATA?IO_LCD
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _IO_BYTE_WRITE
+    MODULE:  main_3.obj (MAIN_3)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_BYTE_WRITE
+    MODULE:  main_3.obj (MAIN_3)
+    ADDRESS: 0070H
+Program Size: data=10.0 xdata=0 code=224
+creating hex file from "a"...
+"a" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_DATA?IO_LCD
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _IO_BYTE_WRITE
+    MODULE:  main_3.obj (MAIN_3)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_BYTE_WRITE
+    MODULE:  main_3.obj (MAIN_3)
+    ADDRESS: 0070H
+Program Size: data=10.0 xdata=0 code=224
+creating hex file from "a"...
+"a" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_DATA?IO_LCD
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _IO_BYTE_WRITE
+    MODULE:  main_3.obj (MAIN_3)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_BYTE_WRITE
+    MODULE:  main_3.obj (MAIN_3)
+    ADDRESS: 0070H
+Program Size: data=10.0 xdata=0 code=224
+creating hex file from "a"...
+"a" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_DATA?IO_LCD
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _IO_BYTE_WRITE
+    MODULE:  main_3.obj (MAIN_3)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_BYTE_WRITE
+    MODULE:  main_3.obj (MAIN_3)
+    ADDRESS: 0070H
+Program Size: data=10.0 xdata=0 code=224
+creating hex file from "a"...
+"a" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_DATA?IO_LCD
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _IO_BYTE_WRITE
+    MODULE:  main_3.obj (MAIN_3)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_BYTE_WRITE
+    MODULE:  main_3.obj (MAIN_3)
+    ADDRESS: 0070H
+Program Size: data=10.0 xdata=0 code=224
+creating hex file from "a"...
+"a" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_DATA?IO_LCD
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _IO_BYTE_WRITE
+    MODULE:  main_3.obj (MAIN_3)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _IO_BYTE_WRITE
+    MODULE:  main_3.obj (MAIN_3)
+    ADDRESS: 0070H
+Program Size: data=10.0 xdata=0 code=224
+creating hex file from "a"...
+"a" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main_3.c...
+main_3.c(13): warning C280: 'j': unreferenced local variable
+linking...
+Program Size: data=11.0 xdata=0 code=242
+creating hex file from "a"...
+"a" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=11.0 xdata=0 code=242
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=11.0 xdata=0 code=242
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main_3.c...
+main_3.c(13): warning C280: 'j': unreferenced local variable
+linking...
+Program Size: data=11.0 xdata=0 code=242
+creating hex file from "a"...
+"a" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=11.0 xdata=0 code=242
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main_3.c...
+main_3.c(13): warning C280: 'j': unreferenced local variable
+linking...
+Program Size: data=10.0 xdata=0 code=225
+creating hex file from "a"...
+"a" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main_3.c...
+main_3.c(13): warning C280: 'j': unreferenced local variable
+linking...
+Program Size: data=10.0 xdata=0 code=227
+creating hex file from "a"...
+"a" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=10.0 xdata=0 code=227
+creating hex file from "a"...
+"a" - 0 Error(s), 0 Warning(s).

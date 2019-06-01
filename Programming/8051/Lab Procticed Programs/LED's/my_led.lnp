@@ -1,0 +1,5 @@
+"delay_1ms.obj",
+"main.obj",
+"io_driver.obj" 
+TO "my_led" 
+RAMSIZE(256) 

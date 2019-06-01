@@ -1,0 +1,77 @@
+BL51 BANKED LINKER/LOCATER V6.22                                                        05/16/2019  07:13:32  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
+C:\KEIL4\C51\BIN\BL51.EXE data1.obj TO kothamasu RAMSIZE (256)
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  data1.obj (DATA1)
+  C:\KEIL4\C51\LIB\C51S.LIB (?C_STARTUP)
+
+
+LINK MAP OF MODULE:  kothamasu (DATA1)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            IDATA   0008H     0001H     UNIT         ?STACK
+
+            * * * * * * *  X D A T A   M E M O R Y  * * * * * * *
+            XDATA   0000H     0002H     UNIT         _XDATA_GROUP_
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+            CODE    0003H     000CH     UNIT         ?C_C51STARTUP
+            CODE    000FH     000AH     UNIT         ?PR?MAIN?DATA1
+            CODE    0019H     0001H     UNIT         ?CO?DATA1
+
+
+
+OVERLAY MAP OF MODULE:   kothamasu (DATA1)
+
+
+SEGMENT                          XDATA_GROUP
+  +--> CALLED SEGMENT          START    LENGTH
+----------------------------------------------
+?C_C51STARTUP                  -----    -----
+  +--> ?PR?MAIN?DATA1
+
+?PR?MAIN?DATA1                 0000H    0002H
+
+
+
+SYMBOL TABLE OF MODULE:  kothamasu (DATA1)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        DATA1
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  C:000FH         PUBLIC        main
+  C:0019H         PUBLIC        d
+  -------         PROC          MAIN
+  -------         DO            
+  X:0000H         SYMBOL        p
+BL51 BANKED LINKER/LOCATER V6.22                                                      05/16/2019  07:13:32  PAGE 2
+
+
+  -------         ENDDO         
+  C:000FH         LINE#         2
+  C:000FH         LINE#         3
+  C:000FH         LINE#         6
+  C:0018H         LINE#         8
+  -------         ENDPROC       MAIN
+  -------         ENDMOD        DATA1
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?DATA1
+
+Program Size: data=9.0 xdata=2 code=26
+LINK/LOCATE RUN COMPLETE.  1 WARNING(S),  0 ERROR(S)

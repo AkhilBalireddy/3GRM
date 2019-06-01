@@ -1,0 +1,63 @@
+C51 COMPILER V9.50a   MAIN_2                                                               05/22/2019 13:38:34 PAGE 1   
+
+
+C51 COMPILER V9.50a, COMPILATION OF MODULE MAIN_2
+OBJECT MODULE PLACED IN main_2.OBJ
+COMPILER INVOKED BY: C:\Keil4\C51\BIN\C51.EXE main_2.c BROWSE DEBUG OBJECTEXTEND TABS(2)
+
+line level    source
+
+   1          #include"header.h"
+   2          #include<reg51.h>
+   3          
+   4          #define SW1 0
+   5          #define SW2 1
+   6          void main()
+   7          {
+   8   1        signed char n=0;
+   9   1        lcd_init();
+  10   1        while(1)
+  11   1        {
+  12   2          if(io_read(PORT2,SW1) ==0)
+  13   2          {
+  14   3            delay_ms(25);
+  15   3            while( io_read(PORT2,SW1) ==0 );
+  16   3            delay_ms(25);
+  17   3            n++;
+  18   3            lcd_cmd(0x1);
+  19   3            lcd_data(n/10+48);
+  20   3            lcd_data(n%10+48);
+  21   3            delay_ms(1500);
+  22   3          }
+  23   2          if(io_read(PORT2,SW2) == 0)
+  24   2          {
+  25   3            delay_ms(50);
+  26   3            while(io_read(PORT2,SW2) == 0);
+  27   3            delay_ms(50);
+  28   3            
+  29   3            while(n>=0)
+  30   3            {
+  31   4              lcd_cmd(0x1);
+  32   4              delay_ms(300);
+  33   4              lcd_data(n/10+48);
+  34   4              lcd_data(n%10+48);
+  35   4              delay_ms(500);
+  36   4              n--;
+  37   4            }
+  38   3          }
+  39   2        }
+  40   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    199    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----       1
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

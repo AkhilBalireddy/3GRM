@@ -1,0 +1,29 @@
+C51 COMPILER V9.50a   ABC                                                                  05/16/2019 15:01:04 PAGE 1   
+
+
+C51 COMPILER V9.50a, COMPILATION OF MODULE ABC
+OBJECT MODULE PLACED IN abc.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE abc.c BROWSE DEBUG OBJECTEXTEND TABS(2)
+
+line level    source
+
+   1          #include<reg51.h>
+   2          unsigned char abc _at_ 0x40;
+   3          void main()
+   4          {
+   5   1        abc=0x12;
+   6   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =      4    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

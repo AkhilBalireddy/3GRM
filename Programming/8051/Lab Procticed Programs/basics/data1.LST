@@ -1,0 +1,32 @@
+C51 COMPILER V9.50a   DATA1                                                                05/16/2019 14:19:57 PAGE 1   
+
+
+C51 COMPILER V9.50a, COMPILATION OF MODULE DATA1
+OBJECT MODULE PLACED IN data1.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE data1.c BROWSE DEBUG OBJECTEXTEND TABS(2)
+
+line level    source
+
+   1          code unsigned char d=20;
+   2          void main()
+   3          {
+   4   1        xdata int unsigned  p;
+   5   1        
+   6   1        //p = 0x33;
+   7   1        //*p=11;
+   8   1      } 
+*** WARNING C280 IN LINE 4 OF data1.c: 'p': unreferenced local variable
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =      1    ----
+   CONSTANT SIZE    =      1    ----
+   XDATA SIZE       =   ----       2
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  0 ERROR(S)

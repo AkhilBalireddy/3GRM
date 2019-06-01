@@ -1,0 +1,112 @@
+C51 COMPILER V9.50a   IO_DRIVER                                                            05/27/2019 15:06:47 PAGE 1   
+
+
+C51 COMPILER V9.50a, COMPILATION OF MODULE IO_DRIVER
+OBJECT MODULE PLACED IN io_driver.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE io_driver.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include"header.h"
+   2          #include<reg51.h>
+   3          #if(abc==0)
+              int io_read(int PORT,int PIN)
+              {
+                int stat;
+                switch(PORT)
+                {
+                      case PORT0:
+                              stat = (P0& (1<<PIN))?1:0;
+                              break;
+                      case PORT1:
+                              stat = (P1 & (1<<PIN))?1:0;
+                              break;
+                      case PORT2:
+                              stat = (P2 & (1<<PIN))?1:0;
+                              break;
+                      case PORT3:
+                              stat = (P3 & (1<<PIN))?1:0;
+                              break;
+               }
+                      return stat;
+              }
+              #endif
+  25          
+  26          #if(abc==0)
+              void io_byte_write(int PORT,int Byte)
+              {
+                      switch(PORT)
+                      {
+                                      case PORT0:     
+                                              P0 = Byte; 
+                                              break;
+              
+                                      case PORT1: 
+                                              P1 = Byte; 
+                                              break;
+                      
+                                      case PORT2: 
+                                              P2 = Byte; 
+                                              break;
+                      
+                                      case PORT3: 
+                                              P3 = Byte; 
+                                              break;
+                      }
+              }
+              #endif
+  49          
+  50          #if(abc==1)
+  51          void io_write(int PORT,int PIN,int VAL)
+  52          {
+  53   1      
+  54   1              switch(PORT)
+  55   1              {
+C51 COMPILER V9.50a   IO_DRIVER                                                            05/27/2019 15:06:47 PAGE 2   
+
+  56   2                      
+  57   2                      case PORT0:
+  58   2                              if(VAL == 1)            //off
+  59   2                                              P0 |=(1<<PIN);
+  60   2                              else                            //on
+  61   2                                              P0 &=~(1<<PIN);
+  62   2                              break;
+  63   2      
+  64   2                              case PORT1:
+  65   2                              if(VAL == 1)
+  66   2                                      P1 |=(1<<PIN);
+  67   2                              else
+  68   2                                      P1 &=~(1<<PIN);
+  69   2                              break;          
+  70   2              
+  71   2                      case PORT2:
+  72   2                              if(VAL == 1)
+  73   2                                      P2 |= (1<<PIN);
+  74   2                              else
+  75   2                                      P2 &=~(1<<PIN);
+  76   2                                              break;
+  77   2              
+  78   2                      case PORT3:
+  79   2                              if(VAL == 1)
+  80   2                                      P3 |= (1<<PIN);
+  81   2                              else
+  82   2                                      P3 &=~(1<<PIN);
+  83   2                              break;
+  84   2              }
+  85   1              
+  86   1      }  
+  87          #endif
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    175    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

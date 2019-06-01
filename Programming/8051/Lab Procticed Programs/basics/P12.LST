@@ -1,0 +1,26 @@
+A51 MACRO ASSEMBLER  P12                                                                  05/16/2019 14:57:43 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.02b
+OBJECT MODULE PLACED IN P12.OBJ
+ASSEMBLER INVOKED BY: C:\Keil\C51\BIN\A51.EXE P12.asm SET(SMALL) DEBUG EP
+
+LOC  OBJ            LINE     SOURCE
+
+----                   1     cseg at 0x0
+0000 747A              2     mov a,#'z'
+                       3     end
+A51 MACRO ASSEMBLER  P12                                                                  05/16/2019 14:57:43 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

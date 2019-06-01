@@ -1,0 +1,32 @@
+C51 COMPILER V9.50a   DELAY_MS                                                             05/20/2019 15:00:15 PAGE 1   
+
+
+C51 COMPILER V9.50a, COMPILATION OF MODULE DELAY_MS
+OBJECT MODULE PLACED IN delay_ms.OBJ
+COMPILER INVOKED BY: C:\Keil4\C51\BIN\C51.EXE delay_ms.c BROWSE DEBUG OBJECTEXTEND TABS(2)
+
+line level    source
+
+   1          void delay_ms(unsigned int ms)
+   2          {
+   3   1        unsigned char i;
+   4   1        for( ;ms>0;ms--)
+   5   1        {
+   6   2          for(i=250;i>0;i--);
+   7   2          for(i=247;i>0;i--);
+   8   2        }
+   9   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     25    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
